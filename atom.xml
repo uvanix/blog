@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
-  
+  <title>午后柠檬の博客</title>
+  <subtitle>学习，分享</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://uvanix.com/"/>
   <updated>2017-01-23T08:10:24.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://uvanix.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>uvanix</name>
     
   </author>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/01/23/hello-world/"/>
-    <id>http://yoursite.com/2017/01/23/hello-world/</id>
+    <link href="http://uvanix.com/2017/01/23/hello-world/"/>
+    <id>http://uvanix.com/2017/01/23/hello-world/</id>
     <published>2017-01-23T08:10:24.000Z</published>
     <updated>2017-01-23T08:10:24.000Z</updated>
     
