@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>午后柠檬の博客</title>
   <subtitle>学习，分享</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://blog.uvanix.com/"/>
+  <link href="http://uvanix.github.io/"/>
   <updated>2017-01-23T08:10:24.000Z</updated>
-  <id>http://blog.uvanix.com/</id>
+  <id>http://uvanix.github.io/</id>
   
   <author>
     <name>uvanix</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://blog.uvanix.com/2017/01/23/hello-world/"/>
-    <id>http://blog.uvanix.com/2017/01/23/hello-world/</id>
+    <link href="http://uvanix.github.io/2017/01/23/hello-world/"/>
+    <id>http://uvanix.github.io/2017/01/23/hello-world/</id>
     <published>2017-01-23T08:10:24.000Z</published>
     <updated>2017-01-23T08:10:24.000Z</updated>
     
