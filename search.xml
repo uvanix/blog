@@ -4,6 +4,12 @@
   
     
     <entry>
+      <title><![CDATA[404]]></title>
+      <url>http://blog.uvanix.com/2017/01/24/404/</url>
+      <content type="html"><![CDATA[<h1 id="404"><a href="#404" class="headerlink" title="404"></a>404</h1><h2 id="404-1"><a href="#404-1" class="headerlink" title="404"></a>404</h2><h3 id="404-2"><a href="#404-2" class="headerlink" title="404"></a>404</h3><h4 id="404-3"><a href="#404-3" class="headerlink" title="404"></a>404</h4><h5 id="404-4"><a href="#404-4" class="headerlink" title="404"></a>404</h5><h6 id="404-5"><a href="#404-5" class="headerlink" title="404"></a>404</h6>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello World]]></title>
       <url>http://blog.uvanix.com/2017/01/23/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
