@@ -4,6 +4,13 @@
   
     
     <entry>
+      <title><![CDATA[测试posts]]></title>
+      <url>http://blog.uvanix.com/2017/02/10/%E6%B5%8B%E8%AF%95posts/</url>
+      <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">echo &apos;123&apos;;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
+<h2 id="2222"><a href="#2222" class="headerlink" title="2222"></a>2222</h2>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[404]]></title>
       <url>http://blog.uvanix.com/2017/01/24/404/</url>
       <content type="html"><![CDATA[<h1 id="404"><a href="#404" class="headerlink" title="404"></a>404</h1><h2 id="404-1"><a href="#404-1" class="headerlink" title="404"></a>404</h2><h3 id="404-2"><a href="#404-2" class="headerlink" title="404"></a>404</h3><h4 id="404-3"><a href="#404-3" class="headerlink" title="404"></a>404</h4><h5 id="404-4"><a href="#404-4" class="headerlink" title="404"></a>404</h5><h6 id="404-5"><a href="#404-5" class="headerlink" title="404"></a>404</h6>]]></content>

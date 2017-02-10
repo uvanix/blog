@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.uvanix.com/"/>
-  <updated>2017-01-24T03:33:29.000Z</updated>
+  <updated>2017-02-10T02:35:33.000Z</updated>
   <id>http://blog.uvanix.com/</id>
   
   <author>
@@ -14,6 +14,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试posts</title>
+    <link href="http://blog.uvanix.com/2017/02/10/%E6%B5%8B%E8%AF%95posts/"/>
+    <id>http://blog.uvanix.com/2017/02/10/测试posts/</id>
+    <published>2017-02-10T02:35:04.000Z</published>
+    <updated>2017-02-10T02:35:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">echo &apos;123&apos;;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
+<h2 id="2222"><a href="#2222" class="headerlink" title="2222"></a>2222</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/di
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>404</title>
