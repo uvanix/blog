@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://blog.uvanix.com/2017/01/24/404/</loc>
+    <lastmod>2017-02-17T06:41:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>Mac下如何清除DNS缓存</title>
+        <pubTime>2017-01-24T03:32:00.000Z</pubTime>
+        
+        <tag>mac</tag>
+         
+        <tag>dns</tag>
+         
+         
+           
+             
+              <breadCrumb title="note" url="http://blog.uvanix.com/categories/note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.uvanix.com/2017/02/10/%E6%B5%8B%E8%AF%95posts/</loc>
     <lastmod>2017-02-17T03:35:50.000Z</lastmod>
     <data>
@@ -19,26 +41,6 @@
            
              
               <breadCrumb title="note" url="http://blog.uvanix.com/categories/note/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.uvanix.com/2017/01/24/404/</loc>
-    <lastmod>2017-01-24T03:33:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>404</title>
-        <pubTime>2017-01-24T03:32:00.000Z</pubTime>
-        
-        <tag>404</tag>
-         
-         
-           
-             
-              <breadCrumb title="demo" url="http://blog.uvanix.com/categories/demo/"/>
           
         </display>
     </data>

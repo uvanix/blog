@@ -41,24 +41,27 @@
   </entry>
   
   <entry>
-    <title>404</title>
+    <title>Mac下如何清除DNS缓存</title>
     <link href="http://blog.uvanix.com/2017/01/24/404/"/>
     <id>http://blog.uvanix.com/2017/01/24/404/</id>
     <published>2017-01-24T03:32:00.000Z</published>
-    <updated>2017-01-24T03:33:29.000Z</updated>
+    <updated>2017-02-17T06:41:34.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="404"><a href="#404" class="headerlink" title="404"></a>404</h1><h2 id="404-1"><a href="#404-1" class="headerlink" title="404"></a>404</h2><h3 id="404-2"><a href="#404-2" class="headerlink" title="404"></a>404</h3><h4 id="404-3"><a href="#404-3" class="headerlink" title="404"></a>404</h4><h5 id="404-4"><a href="#404-4" class="headerlink" title="404"></a>404</h5><h6 id="404-5"><a href="#404-5" class="headerlink" title="404"></a>404</h6>]]></content>
+    <content type="html"><![CDATA[<h3 id="具体参考如下链接"><a href="#具体参考如下链接" class="headerlink" title="具体参考如下链接"></a>具体参考如下链接</h3><p><a href="https://support.apple.com/en-us/HT202516" target="_blank" rel="external">Reset the DNS cache in OS X</a></p>
+]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;404&quot;&gt;&lt;a href=&quot;#404&quot; class=&quot;headerlink&quot; title=&quot;404&quot;&gt;&lt;/a&gt;404&lt;/h1&gt;&lt;h2 id=&quot;404-1&quot;&gt;&lt;a href=&quot;#404-1&quot; class=&quot;headerlink&quot; title=&quot;404&quot;&gt;&lt;/a&gt;40
+      &lt;h3 id=&quot;具体参考如下链接&quot;&gt;&lt;a href=&quot;#具体参考如下链接&quot; class=&quot;headerlink&quot; title=&quot;具体参考如下链接&quot;&gt;&lt;/a&gt;具体参考如下链接&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://support.apple.com/en-us/HT202
     
     </summary>
     
-      <category term="demo" scheme="http://blog.uvanix.com/categories/demo/"/>
+      <category term="note" scheme="http://blog.uvanix.com/categories/note/"/>
     
     
-      <category term="404" scheme="http://blog.uvanix.com/tags/404/"/>
+      <category term="mac" scheme="http://blog.uvanix.com/tags/mac/"/>
+    
+      <category term="dns" scheme="http://blog.uvanix.com/tags/dns/"/>
     
   </entry>
   
