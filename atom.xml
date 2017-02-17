@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.uvanix.com/"/>
-  <updated>2017-02-10T02:35:33.000Z</updated>
+  <updated>2017-02-17T03:35:50.000Z</updated>
   <id>http://blog.uvanix.com/</id>
   
   <author>
@@ -16,21 +16,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试posts</title>
+    <title>mac卸载office重装</title>
     <link href="http://blog.uvanix.com/2017/02/10/%E6%B5%8B%E8%AF%95posts/"/>
     <id>http://blog.uvanix.com/2017/02/10/测试posts/</id>
-    <published>2017-02-10T02:35:04.000Z</published>
-    <updated>2017-02-10T02:35:33.000Z</updated>
+    <published>2017-02-10T02:35:00.000Z</published>
+    <updated>2017-02-17T03:35:50.000Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">echo &apos;123&apos;;</div><div class="line">&gt;</div></pre></td></tr></table></figure>
-<h2 id="2222"><a href="#2222" class="headerlink" title="2222"></a>2222</h2>]]></content>
+    <content type="html"><![CDATA[<h3 id="mac卸载office重装参考微软官方的说明"><a href="#mac卸载office重装参考微软官方的说明" class="headerlink" title="mac卸载office重装参考微软官方的说明"></a>mac卸载office重装参考微软官方的说明</h3><p><a href="https://support.office.com/zh-cn/article/%E9%80%9A%E8%BF%87%E5%9C%A8%E9%87%8D%E6%96%B0%E5%AE%89%E8%A3%85%E4%B9%8B%E5%89%8D%E5%AE%8C%E5%85%A8%E5%8D%B8%E8%BD%BD%E6%9D%A5%E8%A7%A3%E5%86%B3-Office-2016-for-Mac-%E9%97%AE%E9%A2%98-ec3aa66e-6a76-451f-9d35-cba2e14e94c0" target="_blank" rel="external">通过在重新安装之前完全卸载来解决 Office 2016 for Mac 问题</a></p>
+]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/di
+      &lt;h3 id=&quot;mac卸载office重装参考微软官方的说明&quot;&gt;&lt;a href=&quot;#mac卸载office重装参考微软官方的说明&quot; class=&quot;headerlink&quot; title=&quot;mac卸载office重装参考微软官方的说明&quot;&gt;&lt;/a&gt;mac卸载office重装参考微软官方的
     
     </summary>
     
+      <category term="note" scheme="http://blog.uvanix.com/categories/note/"/>
+    
+    
+      <category term="mac" scheme="http://blog.uvanix.com/tags/mac/"/>
+    
+      <category term="office" scheme="http://blog.uvanix.com/tags/office/"/>
     
   </entry>
   
