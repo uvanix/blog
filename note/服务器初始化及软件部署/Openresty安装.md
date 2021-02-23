@@ -27,15 +27,17 @@ cd openresty-1.13.6.2
 --with-http_gzip_static_module \
 --with-http_secure_link_module \
 --with-http_stub_status_module \
+--with-http_sub_module \
 --with-http_mp4_module \
 --with-http_flv_module \
-
 --with-threads \
 --with-pcre \
-
-以下参数用于nginx-vod
-
---add-module=/home/software/openresty-1.13.6.2/nginx-vod-module-1.25 \
+--with-stream \
+--with-stream_ssl_module \
+以下参数用于nginx监控，防盗链和mp4在线切片
+--add-module=../nginx-module-vts-0.1.18 \
+--add-module=../nginx-accesskey-2.0.5 \
+--add-module=../nginx-vod-module-1.25 \
 --with-cc-opt="-O3" \
 gmake && gmake install
 
