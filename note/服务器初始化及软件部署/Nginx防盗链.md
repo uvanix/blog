@@ -72,3 +72,62 @@ public static void main(String[] args) {
 }
 ```
 
+cdn-url鉴权m3u8：
+```
+local chunk, eof = ngx.arg[1], ngx.arg[2]
+local buffered = ngx.ctx.buffered
+if not buffered then
+    buffered = {}
+    ngx.ctx.buffered = buffered
+end
+if chunk ~= "" and not ngx.is_subrequest then
+    buffered[#buffered + 1] = chunk
+    ngx.arg[1] = nil
+end
+if eof then
+    local whole = table.concat(buffered)
+    ngx.ctx.buffered = nil
+    local auth_err = function(err)
+        ngx.log(ngx.ERR, "rewrite m3u8 file error: ", err)
+        return ngx.exit(403)
+    end
+    local mp4, err = ngx.re.sub(ngx.var.uri, "index.m3u8", "", "jo")
+    -- ngx.log(ngx.ERR, "######## "..mp4.." ########")
+    local auth_uri = function(str)
+        local uri = mp4..str[0]
+        local timestamp = ngx.time() + ngx.var.auth_expires
+        local auth_key = timestamp.."-0-0-"..ngx.md5(uri.."-"..timestamp.."-0-0-"..ngx.var.auth_secret)
+        return str[0].."?auth_key="..auth_key
+    end
+    local m3u8, err = ngx.re.gsub(whole, "^seg-[a-z0-9-]+.ts$", auth_uri, "mjo")
+    if not m3u8 then
+        auth_err(err)
+    else
+        m3u8, err = ngx.re.sub(m3u8, "encryption.key", auth_uri, "jo")
+        if not m3u8 then
+            auth_err(err)
+        end
+    end
+    ngx.arg[1] = m3u8
+end
+---
+local auth_err = function(msg)
+    local timestamp = ngx.time() + ngx.var.auth_expires
+    local auth_key = timestamp.."-0-0-"..ngx.md5(ngx.var.uri.."-"..timestamp.."-0-0-"..ngx.var.auth_secret)
+    ngx.log(ngx.ERR, "######## "..msg..", test auth_key is: "..auth_key.." ########")
+    return ngx.exit(403)
+end
+local auth_key = ngx.var.arg_auth_key
+if not auth_key then
+    auth_err("no uri arg auth_key")
+end
+local timestamp = string.sub(ngx.var.arg_auth_key, 1, 10)
+if ngx.time() > tonumber(timestamp) then
+    auth_err("timestamp expired")
+end
+local auth_key = timestamp.."-0-0-"..ngx.md5(ngx.var.uri.."-"..timestamp.."-0-0-"..ngx.var.auth_secret)
+if auth_key ~= ngx.var.arg_auth_key then
+    auth_err("auth_key error")
+end
+```
+
