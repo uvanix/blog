@@ -131,3 +131,44 @@ if auth_key ~= ngx.var.arg_auth_key then
 end
 ```
 
+cloudflare workers
+```
+const encoder = new TextEncoder()
+
+async function verifyAndFetch(request) {
+  const url = new URL(request.url)
+
+  if (!url.searchParams.has("auth_key")) {
+    return new Response("Missing query parameter. ", { status: 403 })
+  }
+
+  const authKey = url.searchParams.get("auth_key").split("-")
+  if(authKey.length != 4) {
+    return new Response("Invalid Sign. ", { status: 403 })
+  }
+
+  const expiry = Number(authKey[0])
+  const now = Date.now() + 28800
+  if (now > expiry * 1000) {
+    const body = `URL expired at ${expiry}`
+    return new Response(body, { status: 403 })
+  }
+
+  const signStr = url.pathname + "-" + expiry + "-" + authKey[1] + "-" + authKey[2] + "-rwwkz8oV132t"
+  const dataBuf = encoder.encode(signStr)
+  const signBuf = await crypto.subtle.digest("MD5", dataBuf);
+  const signArr = Array.from(new Uint8Array(signBuf));
+  const signHex = signArr.map(b => b.toString(16).padStart(2, '0')).join('');
+  if(signHex === authKey[3]) {
+    return fetch(request)
+    // return new Response("Sign Right.", { status: 403 })
+  }
+  
+  return new Response("Invalid Sign. " + signHex + " " + signStr, { status: 403 })
+}
+
+addEventListener("fetch", event => {
+  event.respondWith(verifyAndFetch(event.request))
+})
+```
+
