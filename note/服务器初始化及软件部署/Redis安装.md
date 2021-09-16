@@ -1,6 +1,6 @@
 版本：5.x
-下载redis5.x：cd /opt && curl -o redis-5.0.4.tar.gz http://download.redis.io/releases/redis-5.0.4.tar.gz   (wget http://download.redis.io/releases/redis-5.0.7.tar.gz)
-创建redis安装目录并解压：mkdir /opt/redis && cd /opt && tar zxvf redis-5.0.4.tar.gz
+下载redis5.x：cd /opt && curl -o redis-5.0.13.tar.gz http://download.redis.io/releases/redis-5.0.13.tar.gz   (wget http://download.redis.io/releases/redis-5.0.13.tar.gz)
+创建redis安装目录并解压：mkdir /opt/redis && cd /opt && tar zxvf redis-5.0.13.tar.gz
 编译安装redis：cd /opt/redis-5.0.4 && make && make install PREFIX=/opt/redis
 
 添加环境变量：vim /etc/profile 添加如下内容
